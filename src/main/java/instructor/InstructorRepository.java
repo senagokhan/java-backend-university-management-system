@@ -166,8 +166,6 @@ public class InstructorRepository {
         } catch (Exception e) {
             throw new RuntimeException( e.getMessage());
         }
-
         return recommendedCourses;
     }
-
 }
